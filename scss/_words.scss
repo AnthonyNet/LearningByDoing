@@ -1,0 +1,79 @@
+.container  {
+
+    display: flex;
+    margin: 0 auto;
+    min-height:80vh;
+    max-height: 100%;
+  
+    
+    justify-content: space-between;
+   
+ 
+}
+//COVER WORDS
+.h1_words{
+    flex: 1 0 100%;
+    text-align: center;
+  }
+  
+  .cover_8_words{
+     display: flex;
+     flex: 100%;
+    
+     
+     
+     flex-wrap: wrap;
+     justify-content: space-around;
+     
+  }
+  
+  
+  
+  .words_cover{
+     
+     margin: 1rem;
+     width: 17%;
+    // height: 12vh;
+    // border: 1px solid red;
+  }
+  .cover_8_words dt,
+  .cover_8_words dd{
+     margin: 1rem;
+     padding: 1rem;
+     font-size: 90%;
+     font-weight: 400;
+     
+     text-align: center;
+  }
+  
+  .cover_8_words dt a,
+  .cover_8_words dd a{
+     text-decoration: none;
+     
+     color: var(--color-white);
+  }
+  
+  
+  .cover_8_words dt{
+     cursor: help;
+     
+     background-color: var( --color-black);
+  }
+  
+  .cover_8_words dt a{
+     cursor: help;
+  }
+  
+  .cover_8_words dd{
+     /*
+     overflow: hidden;
+   display: none;
+   */
+     background-color: var(--color-blue-dark);
+     color: var(--color-white);
+  }
+  
+  .page_container h3{
+    padding: 2vh 10vh;
+    
+  }
