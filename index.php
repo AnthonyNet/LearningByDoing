@@ -6,7 +6,9 @@
 <!--Showcase-->
 
 
-          <div class="col-8 bg-light">text</div>
+          <div class="bg-light">
+              <h1 class="text-primary text-center">Ahoy</h1>
+          </div>
           
 
 

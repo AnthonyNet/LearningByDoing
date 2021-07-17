@@ -1,4 +1,4 @@
-<?php include "partials/header.php" ?>
+<?php include "../partials/header.php" ?>
 </header>
 
 <body>
@@ -6,9 +6,11 @@
 
 <section class="words-section">
 			
-			<?php include_once "data/slova_anglictina.php";?>
+			<?php include_once "../data/slova_nemcina.php";?>
 
 			
+					
+
 				<ul class="menu_words_buttons">
 					<li class="show_sectionsMenu">Zobraz menu</li>
 					<li id ="random">Náhodně</li>
@@ -20,12 +22,18 @@
 			
 
 			<ul class="choose_words_section">	
-				<?php createMenuWords($data_anglictina)?>
+				<?php createMenuWords($data_nemcina)?>
 			
 		</section>
 
 	
+
+
+
+
+	
+
 	
 		
             </body>
-        <?php include "partials/footer.php"?>
+        <?php include "../partials/footer.php"?>

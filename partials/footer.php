@@ -5,12 +5,13 @@
             
 
             <ul class="nav-left-ul">Programování
-                    <?php 
-                        $menu_temata = glob('*_programming.php');
-                        
-                        $menu_temata = array_reverse($menu_temata);
-
-                        createMenu($page_name, $menu_temata);
+            <?php if($page_name == 'index'){
+                        $menu_programming = glob('programming/*.php');
+                        createMenu($page_name, $menu_programming);
+                        }else{
+                            $menu_programming = glob('../programming/*.php');
+                        createMenu($page_name, $menu_programming);
+                        }
                     ?>
                
                 <li class="list-group-item bg-secondary">TEXT</li>
@@ -51,9 +52,9 @@
         </script>
 
 
-<script src="js/jquery.js"></script>
-<script src="js/irregular_verbs.js"></script>
-<script src="js/script.js"></script>
+<script src="../js/jquery.js"></script>
+<script src="../js/irregular_verbs.js"></script>
+<script src="../js/script.js"></script>
 
 </body>
 </html>

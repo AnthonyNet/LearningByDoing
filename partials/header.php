@@ -1,6 +1,6 @@
 <?php 
 	$page_name = basename($_SERVER['SCRIPT_NAME'], '.php');
-	if( $page_name == 'index') $page_name = 'home';
+	// if( $page_name == 'index') $page_name = 'home';
     require_once "functions.php";
     
 ?>
@@ -15,7 +15,7 @@
      <!-- Option 1: Include in HTML -->
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
  <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
     <title>Brainzone</title>
 </head>
 <body>
@@ -50,23 +50,33 @@
     <div class="container-fluid">
         <div class="row">
           <div class="col-2 bg-dark">
-          <ul class="list-group">MENU
-                <?php require_once ("functions.php");
-                                $words = glob('../*_words.php');
-                                $words = array_reverse($words);
+          <ul class="list-group">
+              <li class="list-group"><a href="../index.php">Home</a></li>
+          </ul>
 
-                                createMenu($page_name, $words);
+          <ul class="list-group">English
+              <?php
+              if( $page_name == 'index'){
+                $menu_english = glob('english/*.php');
+                createMenu($page_name, $menu_english);
+
+              }else{$menu_english = glob('../english/*.php');
+                createMenu($page_name, $menu_english);
+            }
+                
+              ?>
+              
+          </ul>
+
+          <ul class="list-group">Deutsch
+                <?php if( $page_name == 'index'){
+                                $menu_german = glob('german/*.php');
+                                  createMenu($page_name, $menu_german);
+                        }else{$menu_german = glob('german/*.php');
+                            createMenu($page_name, $menu_german);}
                         ?>
                 </ul>
-                <ul class="nav-left-ul">Užitečné fráze
-                    <?php 
-                        $menu_temata = glob('*_remind.php');
-                        
-                        $menu_temata = array_reverse($menu_temata);
-
-                        createMenu($page_name, $menu_temata);
-                    ?>
-                </ul>
+               
           </div>
 
           <div class="col-8" style="min-height: 84vh">     

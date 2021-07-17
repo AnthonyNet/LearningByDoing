@@ -10,7 +10,7 @@ function createMenu($page_name, $glob_files){
         
 
         if($page_name == $page) echo '<li class="list-group-item"><strong>'. "&#9733;" . ucfirst(str_replace($replace,$replace_with, $page)) ."&#9733;" . '</strong></li>';
-        else echo '<li class="list-group-item"><a href="'. $file . '">'.  ucfirst(str_replace($replace,$replace_with, $page)) .'</a></li>';
+        else echo '<li class="list-group-item"><a class="text-decoration-none" href="'. $file . '">'.  ucfirst(str_replace($replace,$replace_with, $page)) .'</a></li>';
         
     }
 }

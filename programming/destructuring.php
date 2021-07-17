@@ -54,6 +54,55 @@
                
         </div>
     </div>
+
+    <h3 class="text-center mb-4 text-primary">239. Destructuring Params</h3>
+    <div class="row align-items-md-stretch text-primary">
+        <div class="col-md-6">
+            <h3>Object:</h3>
+            <pre>
+            <kbd>const</kbd> movies = [
+                    {
+                        title: 'Heathers',
+                        rating: '4.5 stars',
+                        year: 1998
+                    },
+                    {
+                        title: 'Europa Report',
+                        rating: '2.5 stars',
+                        year: 2020
+                    },
+                    {
+                        title: 'Fellowship of the Ring',
+                        rating: '5 stars',
+                        year: 2000
+                    },
+                    {
+                        title: 'Silver Linings Playbook',
+                        rating: '5 stars',
+                        year: 1987
+                    }
+                        ]
+            
+            </pre>
+        </div>
+        <div class="col-md-6">
+            <h3>Vytvořím funkci s použitím map:</h3>
+     <pre>
+     movies.map(movie =>{
+     <kbd>return</kbd> `${movie.title} (${movie.year}) is rated ${movie.rating}`
+                })
+    </pre>
+                <h3>Lepší varianta:</h3>
+    <pre class="text-warning">
+    movies.map(({title, rating, year}) => {
+    <kbd>return</kbd> `${title} (${year}) is rated ${score}`
+})
+    </pre>
+
+           
+               
+        </div>
+    </div>
 </div>
 <?php
  include_once "../partials/footer.php";

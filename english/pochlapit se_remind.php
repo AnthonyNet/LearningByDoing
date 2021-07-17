@@ -1,4 +1,4 @@
-<?php include "partials/header.php"; ?>
+<?php include "../partials/header.php"; ?>
 
 <h1 class="title_h1">
 Pochlapit se
@@ -18,4 +18,4 @@ Ich habe kein Recht, Sie zu kritisiren.</h3>
 </div>
 
                 
-       <?php include "partials/footer.php" ?>
+       <?php include "../partials/footer.php" ?>

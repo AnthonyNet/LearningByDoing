@@ -1,4 +1,4 @@
-<?php include "partials/header.php" ?>
+<?php include "../partials/header.php" ?>
     
 
 
@@ -7,7 +7,7 @@
 
 //$str = file_get_contents('irregular_verbs.json');
 
-$str = file_get_contents('json/irregular_verbs.json');
+$str = file_get_contents('../json/irregular_verbs.json');
 
 //Now decode the JSON using json_decode():
 
@@ -21,7 +21,7 @@ $routeArr= $json['verbs'];
 $preklady = ["vzniknout", "awake", "být", "rodit", "porazit", "stát se", "začít", "ohnout", "sázet", "spoutat, svázat", "kousnout"  ];
 
 
-require "data/irregular_verbs_english.php";
+require "../data/irregular_verbs_english.php";
 
 ?>
 
@@ -49,4 +49,4 @@ require "data/irregular_verbs_english.php";
  
 
 
-<?php include "partials/footer.php" ?>
+<?php include "../partials/footer.php" ?>
