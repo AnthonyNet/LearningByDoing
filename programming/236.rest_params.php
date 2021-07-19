@@ -3,7 +3,7 @@
 ?>
 <div class="container-xl">
     <h1 class="text-center text-primary">Section 23</h1>
-    <h3 class="text-center mb-4 text-primary">Spread in Arrays</h3>
+    <h3 class="text-center mb-4 text-primary">236. Spread in Arrays</h3>
     <div class="row align-items-md-stretch text-success">
         <div class="col-md-6">
             <h3>Zapíšeme:</h3>

@@ -7,10 +7,12 @@ function createMenu($page_name, $glob_files){
         $page = basename($file, '.php');
         $replace = array('_words', '_', 'remind');
         $replace_with = array('', ' ', '');
-        
+        $final_name = str_replace($replace,$replace_with, $page);
+        $final_name = ucwords($final_name, ".");
 
-        if($page_name == $page) echo '<li class="list-group-item"><strong>'. "&#9733;" . ucfirst(str_replace($replace,$replace_with, $page)) ."&#9733;" . '</strong></li>';
-        else echo '<li class="list-group-item"><a class="text-decoration-none" href="'. $file . '">'.  ucfirst(str_replace($replace,$replace_with, $page)) .'</a></li>';
+//Vytvoří Menu a označí navštívenou page, else všechny ostatní
+        if($page_name == $page) echo '<li class="list-group-item"><strong>'. "&#9733;" . $final_name ."&#9733;" . '</strong></li>';
+        else echo '<li class="list-group-item"><a class="text-decoration-none" href="'. $file . '">'.  $final_name .'</a></li>';
         
     }
 }

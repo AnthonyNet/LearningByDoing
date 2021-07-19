@@ -51,7 +51,11 @@
         <div class="row">
           <div class="col-2 bg-dark">
           <ul class="list-group">
-              <li class="list-group"><a href="../index.php">Home</a></li>
+              <li class="list-group">
+                  <a href=<?php if( $page_name == 'index') {
+                      echo "index.php";
+                  }else {echo "../index.php";}
+                   ?>>Home</a></li>
           </ul>
 
           <ul class="list-group">English
@@ -72,7 +76,7 @@
                 <?php if( $page_name == 'index'){
                                 $menu_german = glob('german/*.php');
                                   createMenu($page_name, $menu_german);
-                        }else{$menu_german = glob('german/*.php');
+                        }else{$menu_german = glob('../german/*.php');
                             createMenu($page_name, $menu_german);}
                         ?>
                 </ul>

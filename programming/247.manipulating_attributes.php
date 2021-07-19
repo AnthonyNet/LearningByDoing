@@ -2,7 +2,7 @@
  require_once "../partials/header.php";
 ?>
 <div class="container-xl">
-<h1 class="text-center text-primary">Section 23</h1>
+<h1 class="text-center text-primary">Section 24</h1>
 <h3 class="text-center mb-4 text-primary">247. Manipulating attributes</h3>
     <div class="row align-items-md-stretch text-primary">
         <div class="col-md-6">
@@ -28,12 +28,6 @@
 img.setAttribute('alt', 'chicken')</code>               
         </div>
     </div>
-
-
-
-    
-
-           
                
         </div>
   

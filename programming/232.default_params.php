@@ -3,7 +3,7 @@
 ?>
 <div class="container-xl">
     <h1 class="text-center">Section 23</h1>
-    <h3 class="text-center mb-5">Default params</h3>
+    <h3 class="text-center mb-5">232. Default params</h3>
     <div class="row align-items-md-stretch">
         <div class="col-md-6">
             <h3>Normální zápis:</h3>

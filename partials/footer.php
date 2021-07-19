@@ -14,11 +14,7 @@
                         }
                     ?>
                
-                <li class="list-group-item bg-secondary">TEXT</li>
-                <li class="list-group-item bg-secondary">TEXT</li>
-                <li class="list-group-item bg-secondary">TEXT</li>
-                <li class="list-group-item bg-secondary">TEXT</li>
-                <li class="list-group-item bg-secondary">TEXT</li>
+                
             </ul>
         </div>
       </div>

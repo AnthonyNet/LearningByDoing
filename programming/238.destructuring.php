@@ -45,7 +45,9 @@
         </div>
         <div class="col-md-6">
             <h3>Vytvořím proměnné</h3>
-            <code><kbd>const</kbd> {firstName, lastName, email, born, numberOfComments, country} = user</code>
+            <pre><kbd>const</kbd>{
+             firstName, lastName, email, born, numberOfComments, country
+            } = user</pre>
 
             <p class="mt-5">Vypíšu pomocí:</p>
                 <p>email</p>
