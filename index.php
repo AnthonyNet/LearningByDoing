@@ -15,11 +15,26 @@
 <h1 class="text-center text-primary">AddEventListener</h1>
 <h3 class="text-center mb-4 text-primary">Pamatuj</h3>
     <div class="row align-items-md-stretch text-primary">
+    <div class="col-md-6 mb-5">
+        <code>Vytvoř x krát UL LI ve VsCode</code>
+        <kbd>ul>li*3{text $}</kbd>
+    </div>
+    <div class="col-md-6 mb-5">
+        <code>Vytvoř parent element/child element</code>
+        <kbd>.flex-parent>.flex-child</kbd>
+    </div>
+    
+
         <div class="col-md-6">
         <code>let hello = document.querySelector('#hello') <br>
 hello.addEventListener('click', ()=>{
   console.log('hello')
 })</code>
+        </div>
+
+        <div class="col-md-6">
+            <code>Tag < details > zobrazí podrobnosti</code>
+            <details>Nekůkaj!</details>
         </div>
         
         <div id="backChange" class="col-md-6">
@@ -45,7 +60,7 @@ hello.addEventListener('click', ()=>{
                     const g = Math.floor(Math.random() *255);
                     const b = Math.floor(Math.random() *255);
                     return `rgb(${r}, ${g}, ${b} )`;
-                }
+                };
             </script>
         </div>
     </div>           

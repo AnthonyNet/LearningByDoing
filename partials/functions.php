@@ -26,12 +26,12 @@ function createMenu($page_name, $glob_files){
     foreach($routeArr as $value){
         echo '<tr>';
         echo '<td>'. ucFirst($preklady[++$i]).'</td>';
-        echo '<td><input id="slovo_ID" data-verb="'.$value["Base"].'" type="text" class="'.$value["Base"]. '"></td>';
-        echo '<td><input id="slovo_ID" data-verb="'.$value["Past-simple"]. '" type="text" class="'.$value["Past-simple"]. '"></td>';
-        echo '<td><input id="slovo_ID" data-verb="'.$value["Past-Participle"]. '" type="text" class="'.$value["Past-Participle"]. '"></td>';
-       /* echo '<td>'. $value["Past-simple"].'</td>';
-        echo '<td>'. $value["Past-Participle"].'</td>';*/
-        echo '<td class="answer">'. $value["Base"]." ". $value["Past-simple"]." ". $value["Past-Participle"]. '</td>';
+        echo '<td><input id="slovo_ID" data-verb="'.$value["base"].'" type="text" class="'.$value["base"]. '"></td>';
+        echo '<td><input id="slovo_ID" data-verb="'.$value["past-simple"]. '" type="text" class="'.$value["past-simple"]. '"></td>';
+        echo '<td><input id="slovo_ID" data-verb="'.$value["past-participle"]. '" type="text" class="'.$value["past-participle"]. '"></td>';
+       /* echo '<td>'. $value["past-simple"].'</td>';
+        echo '<td>'. $value["past-participle"].'</td>';*/
+        echo '<td class="answer">'. $value["base"]." ". $value["past-simple"]." ". $value["past-participle"]. '</td>';
         echo '</tr>';
     }
 
@@ -69,4 +69,92 @@ function createMenu($page_name, $glob_files){
         }
         echo '</div>';
     }
+
+
+
+// zkouším
+
+//Vytvoř tabulku v Irregular verbs
+function addInputs2($routeArr, $preklady, $sort_by_10){
+
+    $i=-1;
+    $i2=0;
+    $i3=0;
+    
+    
+
+    foreach($routeArr as $value){
+       echo '<table class="table table-dark table-hover text-center">';
+        echo  '<thead># '.++$i2.' </thead>';
+        echo '<tr>';
+        echo '<th># '. ++$i3." ".ucFirst($preklady[++$i]).'</th>';
+        echo '</tr>';
+        echo '<tr>';
+        echo '<td><input id="slovo_ID" data-verb="'.$value["base"].'" type="text" class="'.$value["base"]. '"></td>';
+        echo '</tr>';
+        echo '<tr>';
+        echo '<td><input id="slovo_ID" data-verb="'.$value["past-simple"]. '" type="text" class="'.$value["past-simple"]. '"></td>';
+        echo '</tr>';
+        echo '<tr>';
+        echo '<td><input id="slovo_ID" data-verb="'.$value["past-participle"]. '" type="text" class="'.$value["past-participle"]. '"></td>';
+        echo '</tr>';
+       /* echo '<td>'. $value["past-simple"].'</td>';
+        echo '<td>'. $value["past-participle"].'</td>';*/
+        echo '<td class="answer">'. $value["base"]." ". $value["past-simple"]." ". $value["past-participle"]. '</td>';
+        echo '</table>';
+        
+    }
+   
+    }
+
+    //irregular 2
+    
+    function addInputs3($routeArr, $preklady, $sort_by_10){
+
+        $i=-1;
+        $i2=0;
+        $i3=0;
+        $i4=0;
+        
+        foreach ($sort_by_10 as $gallery_cover){
+            echo '<div class="slide-container">';
+
+            echo '<div class="slideNat active mb-5">Ahoj</div>';
+            
+            foreach($gallery_cover as  $value){
+                
+                echo '<div class="slideNat mb-5">';
+                echo '<table class="table table-dark table-hover text-center">';
+                echo  '<thead># '.++$i2.' </thead>';
+                echo '<tr>';
+                echo '<th># '. ++$i3." ".ucFirst($preklady[++$i]).'</th>';
+                echo '</tr>';
+                echo '<tr>';
+                echo '<td><input id="slovo_ID" data-verb="'.$value["base"].'" type="text" class="'.$value["base"]. '"></td>';
+                echo '</tr>';
+                echo '<tr>';
+                echo '<td><input id="slovo_ID" data-verb="'.$value["past-simple"]. '" type="text" class="'.$value["past-simple"]. '"></td>';
+                echo '</tr>';
+                echo '<tr>';
+                echo '<td><input id="slovo_ID" data-verb="'.$value["past-participle"]. '" type="text" class="'.$value["past-participle"]. '"></td>';
+                echo '</tr>';
+            /* echo '<td>'. $value["past-simple"].'</td>';
+                echo '<td>'. $value["past-participle"].'</td>';*/
+                echo '<td class="answer">'. $value["base"]." ". $value["past-simple"]." ". $value["past-participle"]. '</td>';
+                echo '</table>';
+                echo '</div>';
+            }
+                       
+            echo '</div>'; 
+        }
+
+       
+    }
+        
+
+
+
+
+
+
 ?>

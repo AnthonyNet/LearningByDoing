@@ -18,34 +18,24 @@ $route = $obj->verbs;
 
 $routeArr= $json['verbs'];
 
-
-
 require "../data/irregular_verbs_english.php";
 
 ?>
 
+<?php 
+$sort_by_10 = array_chunk($routeArr, 10, true);
+/*
+echo '<pre>';
+print_r($sort_by_10);
+echo '</pre>';*/
+?>
 
-
-<table class="table table-dark table-hover">
-  <thead>
-        
-      <tr>
-          <th colspan="5">Irregular verbs english</th>
-      </tr>
-        
-    </thead>
-  <tr>
-    <th scope="col">CZ</th>
-      <th scope="col">Base</th>
-      <th scope="col">Past Simple</th>
-      <th scope="col">Past Participle</th>
-      <th scope="col">Answer</th>
-  </tr>
-
-
-  <?php addInputs($routeArr, $trans); ?>
-  </table>
+<section class="irregularExerciseCover">
+  <?php addInputs2($routeArr, $trans, $sort_by_10); ?>
+</section>
  
 
-
+<script type="text/javascript"> let irrVerbs2 = var foo = <?php 
+$str = file_get_contents('../json/irregular_verbs.json');
+echo json_encode($str); ?>; </script>
 <?php include "../partials/footer.php" ?>

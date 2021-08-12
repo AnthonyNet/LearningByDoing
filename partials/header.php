@@ -2,6 +2,8 @@
 	$page_name = basename($_SERVER['SCRIPT_NAME'], '.php');
 	// if( $page_name == 'index') $page_name = 'home';
     require_once "functions.php";
+    $pageName_forTitles = ucwords($page_name, ".");
+    $pageName_forTitles = str_replace('_',' ', $page_name);
     
 ?>
 

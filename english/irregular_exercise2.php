@@ -18,34 +18,19 @@ $route = $obj->verbs;
 
 $routeArr= $json['verbs'];
 
-
-
 require "../data/irregular_verbs_english.php";
 
 ?>
 
 
 
-<table class="table table-dark table-hover">
-  <thead>
-        
-      <tr>
-          <th colspan="5">Irregular verbs english</th>
-      </tr>
-        
-    </thead>
-  <tr>
-    <th scope="col">CZ</th>
-      <th scope="col">Base</th>
-      <th scope="col">Past Simple</th>
-      <th scope="col">Past Participle</th>
-      <th scope="col">Answer</th>
-  </tr>
+<section class="natureBody">
+  <div class="wrap">
 
-
-  <?php addInputs($routeArr, $trans); ?>
-  </table>
+  </div>
+</section>
  
 
 
 <?php include "../partials/footer.php" ?>
+
