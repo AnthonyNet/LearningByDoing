@@ -53,16 +53,10 @@
         "pastParticiple" : "bet"
     
     },
-    {   "cz"   : "", 
+    {   "cz"   : "vázat", 
         "base" : "bind", 		
         "pastSimple" :	"bound",
         "pastParticiple" : "bound"
-    
-    },
-    {   "cz"   : "vázat", 
-        "base" : "bite", 		
-        "pastSimple" :	"bit",
-        "pastParticiple" : "bitten"
     
     },
     {   "cz"   : "krvácet", 

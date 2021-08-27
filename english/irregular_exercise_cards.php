@@ -26,84 +26,131 @@ require "../data/irregular_verbs_english.php";
 
 <section class="natureBody">
   <div class="wrap">
-  <ul class="nav nav-tabs mb-4">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Vyber kartu</a>
-  </li>
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Seznam</a>
-    <ul class="dropdown-menu menu-karty">
+  <div class="row row-cols-3 mb-3">
 
 
-      <!-- Vytvoř menu pomocí JS -->
-
-      <!-- DROPDOWN MENU 1 SEZNAM VŠECH SLOVÍČEK -->
-      <script>
-        let foo2 = <?php 
-        echo json_encode($routeArr); ?>;
-        let menuKarty =  document.querySelector('.menu-karty')
-        let wrapKarty = "";
  
-        let pole = foo2;
-        let arrX = new Array()
-       
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Enable both scrolling & backdrop</button>
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions2" aria-controls="offcanvasWithBothOptions2">Vyber slovo</button>
 
-        for (let one of pole){
-            arrX.push(one.cz) 
-        }
-        arrX.sort()
+
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Vyber slovo</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body text-primary">
+  
+  </div>
+</div>
+<div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions2" aria-labelledby="offcanvasWithBothOptionsLabel">
+  <div class="offcanvas-header">
+    <h3 class="offcanvas-title text-primary" id="offcanvasWithBothOptionsLabel">Vyber slovo</h3>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body text-primary">
+  <ul class=" list-group menu-karty2">
+
+
+
+  <script>
+      let createIrrDropMenu2 = () => {
+                  
+                  let foo2 = <?php 
+                      echo json_encode($routeArr); ?>;
+                      let menuKarty =  document.querySelector('.menu-karty2')
+                      let wrapKarty = "";
+              
+                      let pole = foo2;
+                      let arrX = new Array()
+                    
         
-       for (let pokus of arrX){
-        wrapKarty +=`<li><a class="dropdown-item" href="#${pokus}">${pokus}</a></li>`;
-       }
-
-/*
-        for (let index = 0; index < foo2.length; index++) {
-          wrapKarty +=`<li><a class="dropdown-item" href="#${foo2[index].cz}">${foo2[index].cz}</a></li>`;
-        }*/
-      
-        menuKarty.innerHTML += wrapKarty;
-
+                      for (let one of pole){
+                          arrX.push(one.base) 
+                      }
+                      arrX.sort()
+        
+                    for (let pokus of arrX){
+                      wrapKarty +=`<li class="list-group-item "><a class="dropdown-item" href="#${pokus}">${pokus}</a></li>`;
+                    }
+        
+                      /*
+                      for (let index = 0; index < foo2.length; index++) {
+                        wrapKarty +=`<li><a class="dropdown-item" href="#${foo2[index].cz}">${foo2[index].cz}</a></li>`;
+                      }*/
+                    
+                      menuKarty.innerHTML += wrapKarty;
+                  };
+        
+                  createIrrDropMenu2()
       </script>
-    </ul>
-  </li>
+  </ul>
+  </div>
+</div>
 
 
-   <!-- DROPDOWN MENU 1 SEZNAM VŠECH SLOVÍČEK -->
+<button class="btn btn-primary showAllCards" type="submit">Ukaž vše</button>
 
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Jednotlivá slova</a>
-    <ul class="dropdown-menu menu-karty2">
-      <script>
-        let verbsC = <?php 
-  echo json_encode($routeArr); ?>;
-       let menuKarty2 =  document.querySelector('.menu-karty2')
-        let wrapKarty2 = "";
+</div>
 
-       
-        for (let index = 0; index < verbsC.length; index++) {
+
+
+
+
+
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+  <ul class= ' list-group menu-karty d-flex flex-row flex-wrap justify-content-between'>
+  
+  
+  <!-- Vytvoř menu pomocí JS -->
+
+  <!-- DROPDOWN MENU 1 SEZNAM VŠECH SLOVÍČEK -->
+  <script>
+
+    let createIrrDropMenu1 = () => {
+         
+      let foo2 = <?php 
+          echo json_encode($routeArr); ?>;
+          let menuKarty =  document.querySelector('.menu-karty')
+          let wrapKarty = "";
+  
+          let pole = foo2;
+          let arrX = new Array()
         
-          wrapKarty2 +=`<li class="kartaMenu"><a class="dropdown-item" href="#${verbsC[index].cz}">${verbsC[index].cz}</a></li>`;
+
+          for (let one of pole){
+              arrX.push(one.cz) 
+          }
+          arrX.sort()
+
+        for (let pokus of arrX){
+          wrapKarty +=`<li class="list-group-item list-group-item-primary w-25 d-inline-block"><a class="dropdown-item" href="#${pokus}">${pokus}</a></li>`;
         }
-      
-        menuKarty2.innerHTML += wrapKarty2;
 
+          /*
+          for (let index = 0; index < foo2.length; index++) {
+            wrapKarty +=`<li><a class="dropdown-item" href="#${foo2[index].cz}">${foo2[index].cz}</a></li>`;
+          }*/
         
-      </script>
-      
-      
-    </ul>
+          menuKarty.innerHTML += wrapKarty;
+      };
+
+      createIrrDropMenu1()
     
-  </li>
 
 
-  <li class="nav-item showAllCards">
-    <a class="nav-link" href="#">Vše</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-  </li>
+
+  </script>
 </ul>
+  
+</div>
+
+
  
 
 <!-- VYTVOŘ ELEMENTY KARTY POMOCÍ JS -->

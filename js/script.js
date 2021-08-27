@@ -111,6 +111,8 @@
           $('.cardIrr').removeClass('hide');
       });
 
+      
+
 })(jQuery);
 
 
