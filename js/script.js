@@ -96,20 +96,20 @@
          $("html, body").animate({scrollTop: "0"},1000);
      });
 
+    // Choose one Irregular Card || Show ALL
 
+    $('.cardIrr').addClass('show');
 
-
+        $('.menu-karty2 li').on('click',function(){
+         let eq2 = $(this).index();
+         
+         $('.cardIrr').addClass('hide');
+         $('.cardIrr').eq(eq2-1).removeClass('hide');
+      });
      
-     
-/*
-     $('.choose_words_section li').on('click',function(){
-        var eq = $(this).index();
-        
-        $('.cover_8_words').removeClass('show');
-        $('.cover_8_words').eq(eq).addClass('show');
-     });
-
-    */
+      $('.showAllCards').on('click', function() {
+          $('.cardIrr').removeClass('hide');
+      });
 
 })(jQuery);
 

@@ -12,6 +12,20 @@
           
 
 <div class="container-xl">
+<h1 class="text-center text-primary">Arrow Functions</h1>
+
+<div class="row align-items-md-stretch text-primary">
+    <div class="col-md-6 mb-5">
+        <pre>
+        <h5>const add = (x,y) => {
+            return x + y ;
+        } 
+    </h5>
+        
+        </pre>
+    </div>
+</div>
+
 <h1 class="text-center text-primary">AddEventListener</h1>
 <h3 class="text-center mb-4 text-primary">Pamatuj</h3>
     <div class="row align-items-md-stretch text-primary">

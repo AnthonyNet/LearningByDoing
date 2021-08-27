@@ -1,830 +1,830 @@
 { "verbs" :
     [{  "cz"   : "vzniknout",  
         "base" : "arise", 		
-        "past-simple" :	"arose",
-        "past-participle" : "arisen"
+        "pastSimple" :	"arose",
+        "pastParticiple" : "arisen"
     
     },
     {   "cz"   : "probudit", 
         "base" : "awake", 		
-        "past-simple" :	"awoke",
-        "past-participle" : "awoken"
+        "pastSimple" :	"awoke",
+        "pastParticiple" : "awoken"
     
     },
     {   "cz"   : "být", 
         "base" : "be", 		
-        "past-simple" :	"was/were",
-        "past-participle" : "been"
+        "pastSimple" :	"was/were",
+        "pastParticiple" : "been"
     
     },
     {   "cz"   : "rodit", 
         "base" : "bear", 		
-        "past-simple" :	"bore",
-        "past-participle" : "born"
+        "pastSimple" :	"bore",
+        "pastParticiple" : "born"
     
     },
     {   "cz"   : "porazit", 
         "base" : "beat", 		
-        "past-simple" :	"beat",
-        "past-participle" : "beaten"
+        "pastSimple" :	"beat",
+        "pastParticiple" : "beaten"
     
     },
     {   "cz"   : "stát se", 
         "base" : "become", 		
-        "past-simple" :	"became",
-        "past-participle" : "become"
+        "pastSimple" :	"became",
+        "pastParticiple" : "become"
     
     },
     {   "cz"   : "začít", 
         "base" : "begin", 		
-        "past-simple" :	"began",
-        "past-participle" : "begun"
+        "pastSimple" :	"began",
+        "pastParticiple" : "begun"
     
     },
     {   "cz"   : "ohnout", 
         "base" : "bend", 		
-        "past-simple" :	"bent",
-        "past-participle" : "bent"
+        "pastSimple" :	"bent",
+        "pastParticiple" : "bent"
     
     },
     {   "cz"   : "sázet", 
         "base" : "bet", 		
-        "past-simple" :	"bet",
-        "past-participle" : "bet"
+        "pastSimple" :	"bet",
+        "pastParticiple" : "bet"
     
     },
     {   "cz"   : "", 
         "base" : "bind", 		
-        "past-simple" :	"bound",
-        "past-participle" : "bound"
+        "pastSimple" :	"bound",
+        "pastParticiple" : "bound"
     
     },
     {   "cz"   : "vázat", 
         "base" : "bite", 		
-        "past-simple" :	"bit",
-        "past-participle" : "bitten"
+        "pastSimple" :	"bit",
+        "pastParticiple" : "bitten"
     
     },
     {   "cz"   : "krvácet", 
         "base" : "bleed", 		
-        "past-simple" :	"bled",
-        "past-participle" : "bled"
+        "pastSimple" :	"bled",
+        "pastParticiple" : "bled"
     
     },
     {   "cz"   : "foukat", 
         "base" : "blow", 		
-        "past-simple" :	"blew",
-        "past-participle" : "blown"
+        "pastSimple" :	"blew",
+        "pastParticiple" : "blown"
     
     },
     {   "cz"   : "lámat", 
         "base" : "break", 		
-        "past-simple" :	"broke",
-        "past-participle" : "broken"
+        "pastSimple" :	"broke",
+        "pastParticiple" : "broken"
     
     },
     {   "cz"   : "chovat(zvíře)", 
         "base" : "breed", 		
-        "past-simple" :	"bred",
-        "past-participle" : "bred"
+        "pastSimple" :	"bred",
+        "pastParticiple" : "bred"
     
     },
     {   "cz"   : "přinést", 
         "base" : "bring", 		
-        "past-simple" :	"brought",
-        "past-participle" : "brought"
+        "pastSimple" :	"brought",
+        "pastParticiple" : "brought"
     
     },
     {   "cz"   : "vysílat", 
         "base" : "broadcast", 		
-        "past-simple" :	"broadcast",
-        "past-participle" : "broadcast"
+        "pastSimple" :	"broadcast",
+        "pastParticiple" : "broadcast"
     
     },
     {   "cz"   : "stavět", 
         "base" : "build", 		
-        "past-simple" :	"built",
-        "past-participle" : "built"
+        "pastSimple" :	"built",
+        "pastParticiple" : "built"
     
     },
     {   "cz"   : "hořet", 
         "base" : "burn", 		
-        "past-simple" :	"burnt/burned",
-        "past-participle" : "burnt/burned"
+        "pastSimple" :	"burnt/burned",
+        "pastParticiple" : "burnt/burned"
     
     },
     {   "cz"   : "prasknout", 
         "base" : "burst", 		
-        "past-simple" :	"burst",
-        "past-participle" : "burst"
+        "pastSimple" :	"burst",
+        "pastParticiple" : "burst"
     
     },
     {   "cz"   : "koupit", 
         "base" : "buy", 		
-        "past-simple" :	"bought",
-        "past-participle" : "bought"
+        "pastSimple" :	"bought",
+        "pastParticiple" : "bought"
     
     },
     {   "cz"   : "umět", 
         "base" : "can", 		
-        "past-simple" :	"could",
-        "past-participle" : "been able"
+        "pastSimple" :	"could",
+        "pastParticiple" : "been able"
     
     },
     {   "cz"   : "chytit", 
         "base" : "catch", 		
-        "past-simple" :	"caught",
-        "past-participle" : "caught"
+        "pastSimple" :	"caught",
+        "pastParticiple" : "caught"
     
     },
     {   "cz"   : "vybrat", 
         "base" : "choose", 		
-        "past-simple" :	"chose",
-        "past-participle" : "chosen"
+        "pastSimple" :	"chose",
+        "pastParticiple" : "chosen"
     
     },
     {   "cz"   : "lpět", 
         "base" : "cling", 		
-        "past-simple" :	"clung",
-        "past-participle" : "clung"
+        "pastSimple" :	"clung",
+        "pastParticiple" : "clung"
     
     },
     {   "cz"   : "přijít", 
         "base" : "come", 		
-        "past-simple" :	"came",
-        "past-participle" : "come"
+        "pastSimple" :	"came",
+        "pastParticiple" : "come"
     
     },
     {   "cz"   : "stát(cena)", 
         "base" : "cost", 		
-        "past-simple" :	"cost",
-        "past-participle" : "cost"
+        "pastSimple" :	"cost",
+        "pastParticiple" : "cost"
     
     },
     {   "cz"   : "plížit se", 
         "base" : "creep", 		
-        "past-simple" :	"crept",
-        "past-participle" : "crept"
+        "pastSimple" :	"crept",
+        "pastParticiple" : "crept"
     
     },
     {   "cz"   : "stříhat", 
         "base" : "cut", 		
-        "past-simple" :	"cut",
-        "past-participle" : "cut"
+        "pastSimple" :	"cut",
+        "pastParticiple" : "cut"
     
     },
     {   "cz"   : "jednat", 
         "base" : "deal", 		
-        "past-simple" :	"dealt",
-        "past-participle" : "dealt"
+        "pastSimple" :	"dealt",
+        "pastParticiple" : "dealt"
     
     },
     {   "cz"   : "kopat(krumpáčem)", 
         "base" : "dig", 		
-        "past-simple" :	"dug",
-        "past-participle" : "dug"
+        "pastSimple" :	"dug",
+        "pastParticiple" : "dug"
     
     },
     {   "cz"   : "dělat", 
         "base" : "do", 		
-        "past-simple" :	"did",
-        "past-participle" : "done"
+        "pastSimple" :	"did",
+        "pastParticiple" : "done"
     
     },
     {   "cz"   : "kreslit", 
         "base" : "draw", 		
-        "past-simple" :	"drew",
-        "past-participle" : "drawn"
+        "pastSimple" :	"drew",
+        "pastParticiple" : "drawn"
     
     },
     {   "cz"   : "snít", 
         "base" : "dream", 		
-        "past-simple" :	"dreamt/dreamed",
-        "past-participle" : "dreamt/dreamed"
+        "pastSimple" :	"dreamt/dreamed",
+        "pastParticiple" : "dreamt/dreamed"
     
     },
     {   "cz"   : "pít", 
         "base" : "drink", 		
-        "past-simple" :	"drank",
-        "past-participle" : "drunk"
+        "pastSimple" :	"drank",
+        "pastParticiple" : "drunk"
     
     },
     {   "cz"   : "řídit", 
         "base" : "drive", 		
-        "past-simple" :	"drove",
-        "past-participle" : "driven"
+        "pastSimple" :	"drove",
+        "pastParticiple" : "driven"
     
     },
     {   "cz"   : "jíst", 
         "base" : "eat", 		
-        "past-simple" :	"ate",
-        "past-participle" : "eaten"
+        "pastSimple" :	"ate",
+        "pastParticiple" : "eaten"
     
     },
     {   "cz"   : "klesat, padnout", 
         "base" : "fall", 		
-        "past-simple" :	"fell",
-        "past-participle" : "fallen"
+        "pastSimple" :	"fell",
+        "pastParticiple" : "fallen"
     
     },
     {   "cz"   : "krmit", 
         "base" : "feed", 		
-        "past-simple" :	"fed",
-        "past-participle" : "fed"
+        "pastSimple" :	"fed",
+        "pastParticiple" : "fed"
     
     },
     {   "cz"   : "cítit", 
         "base" : "feel", 		
-        "past-simple" :	"felt",
-        "past-participle" : "felt"
+        "pastSimple" :	"felt",
+        "pastParticiple" : "felt"
     
     },
     {   "cz"   : "bojovat", 
         "base" : "fight", 		
-        "past-simple" :	"fought",
-        "past-participle" : "fought"
+        "pastSimple" :	"fought",
+        "pastParticiple" : "fought"
     
     },
     {   "cz"   : "nalézt", 
         "base" : "find", 		
-        "past-simple" :	"found",
-        "past-participle" : "found"
+        "pastSimple" :	"found",
+        "pastParticiple" : "found"
     
     },
     {   "cz"   : "létat", 
         "base" : "fly", 		
-        "past-simple" :	"flew",
-        "past-participle" : "flown"
+        "pastSimple" :	"flew",
+        "pastParticiple" : "flown"
     
     },
     {   "cz"   : "zakázat", 
         "base" : "forbid", 		
-        "past-simple" :	"forbade",
-        "past-participle" : "forbidden"
+        "pastSimple" :	"forbade",
+        "pastParticiple" : "forbidden"
     
     },
     {   "cz"   : "zapomenout", 
         "base" : "forget", 		
-        "past-simple" :	"forgot",
-        "past-participle" : "forgotten"
+        "pastSimple" :	"forgot",
+        "pastParticiple" : "forgotten"
     
     },
     {   "cz"   : "odpustit", 
         "base" : "forgive", 		
-        "past-simple" :	"forgave",
-        "past-participle" : "forgiven"
+        "pastSimple" :	"forgave",
+        "pastParticiple" : "forgiven"
     
     },
     {   "cz"   : "zmrznout", 
         "base" : "freeze", 		
-        "past-simple" :	"froze",
-        "past-participle" : "frozen"
+        "pastSimple" :	"froze",
+        "pastParticiple" : "frozen"
     
     },
     {   "cz"   : "dostat", 
         "base" : "get", 		
-        "past-simple" :	"got",
-        "past-participle" : "got"
+        "pastSimple" :	"got",
+        "pastParticiple" : "got"
     
     },
     {   "cz"   : "dát", 
         "base" : "give", 		
-        "past-simple" :	"gave",
-        "past-participle" : "given"
+        "pastSimple" :	"gave",
+        "pastParticiple" : "given"
     
     },
     {   "cz"   : "jít", 
         "base" : "go", 		
-        "past-simple" :	"went",
-        "past-participle" : "gone"
+        "pastSimple" :	"went",
+        "pastParticiple" : "gone"
     
     },
     {   "cz"   : "mlít/brousit", 
         "base" : "grind", 		
-        "past-simple" :	"ground",
-        "past-participle" : "ground"
+        "pastSimple" :	"ground",
+        "pastParticiple" : "ground"
     
     },
     {   "cz"   : "růst", 
         "base" : "grow", 		
-        "past-simple" :	"grew",
-        "past-participle" : "grown"
+        "pastSimple" :	"grew",
+        "pastParticiple" : "grown"
     
     },
     {   "cz"   : "pověsit", 
         "base" : "hang", 		
-        "past-simple" :	"hung",
-        "past-participle" : "hung"
+        "pastSimple" :	"hung",
+        "pastParticiple" : "hung"
     
     },
     {   "cz"   : "mít", 
         "base" : "have", 		
-        "past-simple" :	"had",
-        "past-participle" : "had"
+        "pastSimple" :	"had",
+        "pastParticiple" : "had"
     
     },
     {   "cz"   : "slyšet", 
         "base" : "hear", 		
-        "past-simple" :	"heard",
-        "past-participle" : "heard"
+        "pastSimple" :	"heard",
+        "pastParticiple" : "heard"
     
     },
     {   "cz"   : "skrýt", 
         "base" : "hide", 		
-        "past-simple" :	"hid",
-        "past-participle" : "hidden"
+        "pastSimple" :	"hid",
+        "pastParticiple" : "hidden"
     
     },
     {   "cz"   : "udeřit", 
         "base" : "hit", 		
-        "past-simple" :	"hit",
-        "past-participle" : "hit"
+        "pastSimple" :	"hit",
+        "pastParticiple" : "hit"
     
     },
     {   "cz"   : "držet", 
         "base" : "hold", 		
-        "past-simple" :	"held",
-        "past-participle" : "held"
+        "pastSimple" :	"held",
+        "pastParticiple" : "held"
     
     },
     {   "cz"   : "zranit", 
         "base" : "hurt", 		
-        "past-simple" :	"hurt",
-        "past-participle" : "hurt"
+        "pastSimple" :	"hurt",
+        "pastParticiple" : "hurt"
     
     },
     {   "cz"   : "držet", 
         "base" : "keep", 		
-        "past-simple" :	"kept",
-        "past-participle" : "kept"
+        "pastSimple" :	"kept",
+        "pastParticiple" : "kept"
     
     },
     {   "cz"   : "klečet", 
         "base" : "kneel", 		
-        "past-simple" :	"knelt",
-        "past-participle" : "knelt"
+        "pastSimple" :	"knelt",
+        "pastParticiple" : "knelt"
     
     },
     {   "cz"   : "znát", 
         "base" : "know", 		
-        "past-simple" :	"knew",
-        "past-participle" : "known"
+        "pastSimple" :	"knew",
+        "pastParticiple" : "known"
     
     },
     {   "cz"   : "položit", 
         "base" : "lay", 		
-        "past-simple" :	"laid",
-        "past-participle" : "laid"
+        "pastSimple" :	"laid",
+        "pastParticiple" : "laid"
     
     },
     {   "cz"   : "vést", 
         "base" : "lead", 		
-        "past-simple" :	"led",
-        "past-participle" : "led"
+        "pastSimple" :	"led",
+        "pastParticiple" : "led"
     
     },
     {   "cz"   : "opírat se", 
         "base" : "lean", 		
-        "past-simple" :	"leant/leaned",
-        "past-participle" : "leant/leaned"
+        "pastSimple" :	"leant/leaned",
+        "pastParticiple" : "leant/leaned"
     
     },
     {   "cz"   : "učit", 
         "base" : "learn", 		
-        "past-simple" :	"learnt/learned",
-        "past-participle" : "learnt/learned"
+        "pastSimple" :	"learnt/learned",
+        "pastParticiple" : "learnt/learned"
     
     },
     {   "cz"   : "odejít", 
         "base" : "leave", 		
-        "past-simple" :	"left",
-        "past-participle" : "left"
+        "pastSimple" :	"left",
+        "pastParticiple" : "left"
     
     },
     {   "cz"   : "půjčit", 
         "base" : "lent", 		
-        "past-simple" :	"lent",
-        "past-participle" : "lent"
+        "pastSimple" :	"lent",
+        "pastParticiple" : "lent"
     
     },
     {   "cz"   : "ležet", 
         "base" : "lie (in bed)", 		
-        "past-simple" :	"lay",
-        "past-participle" : "lain"
+        "pastSimple" :	"lay",
+        "pastParticiple" : "lain"
     
     },
     {   "cz"   : "lhát", 
         "base" : "lie (to not tell the truth)", 		
-        "past-simple" : 	"lied",
-        "past-participle" : "lied"
+        "pastSimple" : 	"lied",
+        "pastParticiple" : "lied"
     
     },
     {   "cz"   : "zapálit", 
         "base" : "light", 		
-        "past-simple" :	"lit/lighted",
-        "past-participle" : "lit/lighted"
+        "pastSimple" :	"lit/lighted",
+        "pastParticiple" : "lit/lighted"
     
     },
     {   "cz"   : "prohrát", 
         "base" : "lose", 		
-        "past-simple" :	"lost",
-        "past-participle" : "lost"
+        "pastSimple" :	"lost",
+        "pastParticiple" : "lost"
     
     },
     {   "cz"   : "udělat", 
         "base" : "make", 		
-        "past-simple" :	"made",
-        "past-participle" : "made"
+        "pastSimple" :	"made",
+        "pastParticiple" : "made"
     
     },
     {   "cz"   : "smět", 
         "base" : "may", 		
-        "past-simple" :	"might",
-        "past-participle" : "…"
+        "pastSimple" :	"might",
+        "pastParticiple" : "…"
     
     },
     {   "cz"   : "znamenat", 
         "base" : "mean", 		
-        "past-simple" :	"meant",
-        "past-participle" : "meant"
+        "pastSimple" :	"meant",
+        "pastParticiple" : "meant"
     
     },
     {   "cz"   : "setkat", 
         "base" : "meet", 		
-        "past-simple" :	"met",
-        "past-participle" : "met"
+        "pastSimple" :	"met",
+        "pastParticiple" : "met"
     
     },
     {   "cz"   : "sekat", 
         "base" : "mow", 		
-        "past-simple" :	"mowed",
-        "past-participle" : "mown/mowed"
+        "pastSimple" :	"mowed",
+        "pastParticiple" : "mown/mowed"
     
     },
     {   "cz"   : "muset", 
         "base" : "must", 		
-        "past-simple" :	"had to",
-        "past-participle" : "…"
+        "pastSimple" :	"had to",
+        "pastParticiple" : "…"
     
     },
     {   "cz"   : "předjet", 
         "base" : "overtake", 		
-        "past-simple" :	"overtook",
-        "past-participle" : "overtaken"
+        "pastSimple" :	"overtook",
+        "pastParticiple" : "overtaken"
     
     },
     {   "cz"   : "platit", 
         "base" : "pay", 		
-        "past-simple" :	"paid",
-        "past-participle" : "paid"
+        "pastSimple" :	"paid",
+        "pastParticiple" : "paid"
     
     },
     {   "cz"   : "dát", 
         "base" : "put", 		
-        "past-simple" :	"put",
-        "past-participle" : "put"
+        "pastSimple" :	"put",
+        "pastParticiple" : "put"
     
     },
     {   "cz"   : "číst", 
         "base" : "read", 		
-        "past-simple" :	"read",
-        "past-participle" : "read"
+        "pastSimple" :	"read",
+        "pastParticiple" : "read"
     
     },
     {   "cz"   : "jezdit", 
         "base" : "ride", 		
-        "past-simple" :	"rode",
-        "past-participle" : "ridden"
+        "pastSimple" :	"rode",
+        "pastParticiple" : "ridden"
     
     },
     {   "cz"   : "zvonit", 
         "base" : "ring", 		
-        "past-simple" :	"rang",
-        "past-participle" : "rung"
+        "pastSimple" :	"rang",
+        "pastParticiple" : "rung"
     
     },
     {   "cz"   : "stoupat", 
         "base" : "rise", 		
-        "past-simple" :	"rose",
-        "past-participle" : "risen"
+        "pastSimple" :	"rose",
+        "pastParticiple" : "risen"
     
     },
     {   "cz"   : "běžet", 
         "base" : "run", 		
-        "past-simple" :	"ran",
-        "past-participle" : "run"
+        "pastSimple" :	"ran",
+        "pastParticiple" : "run"
     
     },
     {   "cz"   : "vidět", 
         "base" : "saw", 		
-        "past-simple" :	"sawed",
-        "past-participle" : "sawn/sawed"
+        "pastSimple" :	"sawed",
+        "pastParticiple" : "sawn/sawed"
     
     },
     {   "cz"   : "říci", 
         "base" : "say", 		
-        "past-simple" :	"said",
-        "past-participle" : "said"
+        "pastSimple" :	"said",
+        "pastParticiple" : "said"
     
     },
     {   "cz"   : "vidět", 
         "base" : "see", 		
-        "past-simple" :	"saw",
-        "past-participle" : "seen"
+        "pastSimple" :	"saw",
+        "pastParticiple" : "seen"
     
     },
     {   "cz"   : "prodat", 
         "base" : "sell", 		
-        "past-simple" :	"sold",
-        "past-participle" : "sold"
+        "pastSimple" :	"sold",
+        "pastParticiple" : "sold"
     
     },
     {   "cz"   : "poslat", 
         "base" : "send", 		
-        "past-simple" :	"sent",
-        "past-participle" : "sent"
+        "pastSimple" :	"sent",
+        "pastParticiple" : "sent"
     
     },
     {   "cz"   : "položit, postavit", 
         "base" : "set", 		
-        "past-simple" :	"set",
-        "past-participle" : "set"
+        "pastSimple" :	"set",
+        "pastParticiple" : "set"
     
     },
     {   "cz"   : "šít", 
         "base" : "sew", 		
-        "past-simple" :	"sewed",
-        "past-participle" : "sewn/sewed"
+        "pastSimple" :	"sewed",
+        "pastParticiple" : "sewn/sewed"
     
     },
     {   "cz"   : "třást", 
         "base" : "shake", 		
-        "past-simple" :	"shook",
-        "past-participle" : "shaken"
+        "pastSimple" :	"shook",
+        "pastParticiple" : "shaken"
     
     },
     {   "cz"   : "muset", 
         "base" : "shall", 		
-        "past-simple" :	"should",
-        "past-participle" : "…"
+        "pastSimple" :	"should",
+        "pastParticiple" : "…"
     
     },
     {   "cz"   : "prolévat/shodit", 
         "base" : "shed", 		
-        "past-simple" :	"shed",
-        "past-participle" : "shed"
+        "pastSimple" :	"shed",
+        "pastParticiple" : "shed"
     
     },
     {   "cz"   : "lesknout", 
         "base" : "shine", 		
-        "past-simple" :	"shone",
-        "past-participle" : "shone"
+        "pastSimple" :	"shone",
+        "pastParticiple" : "shone"
     
     },
     {   "cz"   : "střílet", 
         "base" : "shoot", 		
-        "past-simple" :	"shot",
-        "past-participle" : "shot"
+        "pastSimple" :	"shot",
+        "pastParticiple" : "shot"
     
     },
     {   "cz"   : "ukázat", 
         "base" : "show", 		
-        "past-simple" :	"showed",
-        "past-participle" : "shown"
+        "pastSimple" :	"showed",
+        "pastParticiple" : "shown"
     
     },
     {   "cz"   : "zmenšit", 
         "base" : "shrink", 		
-        "past-simple" :	"shrank",
-        "past-participle" : "shrunk"
+        "pastSimple" :	"shrank",
+        "pastParticiple" : "shrunk"
     
     },
     {   "cz"   : "zavřít", 
         "base" : "shut", 		
-        "past-simple" :	"shut",
-        "past-participle" : "shut"
+        "pastSimple" :	"shut",
+        "pastParticiple" : "shut"
     
     },
     {   "cz"   : "zpívat", 
         "base" : "sing", 		
-        "past-simple" :	"sang",
-        "past-participle" : "sung"
+        "pastSimple" :	"sang",
+        "pastParticiple" : "sung"
     
     },
     {   "cz"   : "potopi/klesat", 
         "base" : "sink", 		
-        "past-simple" :	"sank",
-        "past-participle" : "sunk"
+        "pastSimple" :	"sank",
+        "pastParticiple" : "sunk"
     
     },
     {   "cz"   : "sedět", 
         "base" : "sit", 		
-        "past-simple" :	"sat",
-        "past-participle" : "sat"
+        "pastSimple" :	"sat",
+        "pastParticiple" : "sat"
     
     },
     {   "cz"   : "spát", 
         "base" : "sleep", 		
-        "past-simple" :	"slept",
-        "past-participle" : "slept"
+        "pastSimple" :	"slept",
+        "pastParticiple" : "slept"
     
     },
     {   "cz"   : "klouzat", 
         "base" : "slide", 		
-        "past-simple" :	"slid",
-        "past-participle" : "slid"
+        "pastSimple" :	"slid",
+        "pastParticiple" : "slid"
     
     },
     {   "cz"   : "čichat", 
         "base" : "smell", 		
-        "past-simple" :	"smelt",
-        "past-participle" : "smelt"
+        "pastSimple" :	"smelt",
+        "pastParticiple" : "smelt"
     
     },
     {   "cz"   : "zasít/rozsévat", 
         "base" : "sow", 		
-        "past-simple" :	"sowed",
-        "past-participle" : "sown/sowed"
+        "pastSimple" :	"sowed",
+        "pastParticiple" : "sown/sowed"
     
     },
     {   "cz"   : "mluvit", 
         "base" : "speak", 		
-        "past-simple" :	"spoke",
-        "past-participle" : "spoken"
+        "pastSimple" :	"spoke",
+        "pastParticiple" : "spoken"
     
     },
     {   "cz"   : "hláskovat", 
         "base" : "spell", 		
-        "past-simple" :	"spelt/spelled",
-        "past-participle" : "spelt/spelled"
+        "pastSimple" :	"spelt/spelled",
+        "pastParticiple" : "spelt/spelled"
     
     },
     {   "cz"   : "strávit", 
         "base" : "spend", 		
-        "past-simple" :	"spent",
-        "past-participle" : "spent"
+        "pastSimple" :	"spent",
+        "pastParticiple" : "spent"
     
     },
     {   "cz"   : "rozlít", 
         "base" : "spill", 		
-        "past-simple" :	"spilt/spilled",
-        "past-participle" : "spilt/spilled"
+        "pastSimple" :	"spilt/spilled",
+        "pastParticiple" : "spilt/spilled"
     
     },
     {   "cz"   : "plivat", 
         "base" : "spit", 		
-        "past-simple" :	"spat",
-        "past-participle" : "spat"
+        "pastSimple" :	"spat",
+        "pastParticiple" : "spat"
     
     },
     {   "cz"   : "šířit", 
         "base" : "spread", 		
-        "past-simple" :	"spread",
-        "past-participle" : "spread"
+        "pastSimple" :	"spread",
+        "pastParticiple" : "spread"
     
     },
     {   "cz"   : "vydržet", 
         "base" : "stand", 		
-        "past-simple" :	"stood",
-        "past-participle" : "stood"
+        "pastSimple" :	"stood",
+        "pastParticiple" : "stood"
     
     },
     {   "cz"   : "ukrást", 
         "base" : "steal", 		
-        "past-simple" :	"stole",
-        "past-participle" : "stolen"
+        "pastSimple" :	"stole",
+        "pastParticiple" : "stolen"
     
     },
     {   "cz"   : "lepit", 
         "base" : "stick", 		
-        "past-simple" :	"stuck",
-        "past-participle" : "stuck"
+        "pastSimple" :	"stuck",
+        "pastParticiple" : "stuck"
     
     },
     {   "cz"   : "bodnout", 
         "base" : "sting", 		
-        "past-simple" :	"stung",
-        "past-participle" : "stung"
+        "pastSimple" :	"stung",
+        "pastParticiple" : "stung"
     
     },
     {   "cz"   : "smrdět", 
         "base" : "stink", 		
-        "past-simple" :	"stank",
-        "past-participle" : "stunk"
+        "pastSimple" :	"stank",
+        "pastParticiple" : "stunk"
     
     },
     {   "cz"   : "stávovat/udeřit", 
         "base" : "strike", 		
-        "past-simple" :	"struck",
-        "past-participle" : "struck"
+        "pastSimple" :	"struck",
+        "pastParticiple" : "struck"
     
     },
     {   "cz"   : "přísahat", 
         "base" : "swear", 		
-        "past-simple" :	"swore",
-        "past-participle" : "sworn"
+        "pastSimple" :	"swore",
+        "pastParticiple" : "sworn"
     
     },
     {   "cz"   : "zametat", 
         "base" : "sweep", 		
-        "past-simple" :	"swept",
-        "past-participle" : "swept"
+        "pastSimple" :	"swept",
+        "pastParticiple" : "swept"
     
     },
     {   "cz"   : "bobtnat", 
         "base" : "swell", 		
-        "past-simple" :	"swelled",
-        "past-participle" : "swollen/swelled"
+        "pastSimple" :	"swelled",
+        "pastParticiple" : "swollen/swelled"
     
     },
     {   "cz"   : "plavat", 
         "base" : "swim", 		
-        "past-simple" :	"swam",
-        "past-participle" : "swum"
+        "pastSimple" :	"swam",
+        "pastParticiple" : "swum"
     
     },
     {   "cz"   : "houpat", 
         "base" : "swing", 		
-        "past-simple" :	"swung",
-        "past-participle" : "swung"
+        "pastSimple" :	"swung",
+        "pastParticiple" : "swung"
     
     },
     {   "cz"   : "vzít", 
         "base" : "take", 		
-        "past-simple" :	"took",
-        "past-participle" : "taken"
+        "pastSimple" :	"took",
+        "pastParticiple" : "taken"
     
     },
     {   "cz"   : "učit", 
         "base" : "teach", 		
-        "past-simple" :	"taught",
-        "past-participle" : "taught"
+        "pastSimple" :	"taught",
+        "pastParticiple" : "taught"
     
     },
     {   "cz"   : "roztrhnout", 
         "base" : "tear", 		
-        "past-simple" :	"tore",
-        "past-participle" : "torn"
+        "pastSimple" :	"tore",
+        "pastParticiple" : "torn"
     
     },
     {   "cz"   : "říct/sdělit/vyprávět", 
         "base" : "tell", 		
-        "past-simple" :	"told",
-        "past-participle" : "told"
+        "pastSimple" :	"told",
+        "pastParticiple" : "told"
     
     },
     {   "cz"   : "myslet", 
         "base" : "think", 		
-        "past-simple" :	"thought",
-        "past-participle" : "thought"
+        "pastSimple" :	"thought",
+        "pastParticiple" : "thought"
     
     },
     {   "cz"   : "házet", 
         "base" : "throw", 		
-        "past-simple" :	"threw",
-        "past-participle" : "thrown"
+        "pastSimple" :	"threw",
+        "pastParticiple" : "thrown"
     
     },
     {   "cz"   : "rozumět", 
         "base" : "understand", 		
-        "past-simple" :	"understood",
-        "past-participle" : "understood"
+        "pastSimple" :	"understood",
+        "pastParticiple" : "understood"
     
     },
     {   "cz"   : "probudit", 
         "base" : "wake", 		
-        "past-simple" :	"woke",
-        "past-participle" : "woken"
+        "pastSimple" :	"woke",
+        "pastParticiple" : "woken"
     
     },
     {   "cz"   : "mít na sobě", 
         "base" : "wear", 		
-        "past-simple" :	"wore",
-        "past-participle" : "worn"
+        "pastSimple" :	"wore",
+        "pastParticiple" : "worn"
     
     },
     {   "cz"   : "plakat", 
         "base" : "weep", 		
-        "past-simple" :	"wept",
-        "past-participle" : "wept"
+        "pastSimple" :	"wept",
+        "pastParticiple" : "wept"
     
     },
     {   "cz"   : "vyhrát", 
         "base" : "win", 		
-        "past-simple" :	"won",
-        "past-participle" : "won"
+        "pastSimple" :	"won",
+        "pastParticiple" : "won"
     
     },
     {   "cz"   : "navíjet", 
         "base" : "wind", 		
-        "past-simple" :	"wound",
-        "past-participle" : "wound"
+        "pastSimple" :	"wound",
+        "pastParticiple" : "wound"
     
     },
     {   "cz"   : "psát ", 
         "base" : "write", 		
-        "past-simple" :	"wrote",
-        "past-participle" : "written"
+        "pastSimple" :	"wrote",
+        "pastParticiple" : "written"
     
     }]
     }

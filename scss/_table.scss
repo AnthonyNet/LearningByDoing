@@ -7,3 +7,10 @@ tbody {
         }
     }
 }
+
+.answerCard{
+    color: rgba(255, 255, 255, 0);
+    &:hover{
+        color: rgba(44, 7, 255, 1);
+    }
+}

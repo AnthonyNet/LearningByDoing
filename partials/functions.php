@@ -27,11 +27,11 @@ function createMenu($page_name, $glob_files){
         echo '<tr>';
         echo '<td>'. ucFirst($preklady[++$i]).'</td>';
         echo '<td><input id="slovo_ID" data-verb="'.$value["base"].'" type="text" class="'.$value["base"]. '"></td>';
-        echo '<td><input id="slovo_ID" data-verb="'.$value["past-simple"]. '" type="text" class="'.$value["past-simple"]. '"></td>';
-        echo '<td><input id="slovo_ID" data-verb="'.$value["past-participle"]. '" type="text" class="'.$value["past-participle"]. '"></td>';
-       /* echo '<td>'. $value["past-simple"].'</td>';
-        echo '<td>'. $value["past-participle"].'</td>';*/
-        echo '<td class="answer">'. $value["base"]." ". $value["past-simple"]." ". $value["past-participle"]. '</td>';
+        echo '<td><input id="slovo_ID" data-verb="'.$value["pastSimple"]. '" type="text" class="'.$value["pastSimple"]. '"></td>';
+        echo '<td><input id="slovo_ID" data-verb="'.$value["pastParticiple"]. '" type="text" class="'.$value["pastParticiple"]. '"></td>';
+       /* echo '<td>'. $value["pastSimple"].'</td>';
+        echo '<td>'. $value["pastParticiple"].'</td>';*/
+        echo '<td class="answer">'. $value["base"]." ". $value["pastSimple"]." ". $value["pastParticiple"]. '</td>';
         echo '</tr>';
     }
 
@@ -93,14 +93,14 @@ function addInputs2($routeArr, $preklady, $sort_by_10){
         echo '<td><input id="slovo_ID" data-verb="'.$value["base"].'" type="text" class="'.$value["base"]. '"></td>';
         echo '</tr>';
         echo '<tr>';
-        echo '<td><input id="slovo_ID" data-verb="'.$value["past-simple"]. '" type="text" class="'.$value["past-simple"]. '"></td>';
+        echo '<td><input id="slovo_ID" data-verb="'.$value["pastSimple"]. '" type="text" class="'.$value["pastSimple"]. '"></td>';
         echo '</tr>';
         echo '<tr>';
-        echo '<td><input id="slovo_ID" data-verb="'.$value["past-participle"]. '" type="text" class="'.$value["past-participle"]. '"></td>';
+        echo '<td><input id="slovo_ID" data-verb="'.$value["pastParticiple"]. '" type="text" class="'.$value["pastParticiple"]. '"></td>';
         echo '</tr>';
-       /* echo '<td>'. $value["past-simple"].'</td>';
-        echo '<td>'. $value["past-participle"].'</td>';*/
-        echo '<td class="answer">'. $value["base"]." ". $value["past-simple"]." ". $value["past-participle"]. '</td>';
+       /* echo '<td>'. $value["pastSimple"].'</td>';
+        echo '<td>'. $value["pastParticiple"].'</td>';*/
+        echo '<td class="answer">'. $value["base"]." ". $value["pastSimple"]." ". $value["pastParticiple"]. '</td>';
         echo '</table>';
         
     }
@@ -133,14 +133,14 @@ function addInputs2($routeArr, $preklady, $sort_by_10){
                 echo '<td><input id="slovo_ID" data-verb="'.$value["base"].'" type="text" class="'.$value["base"]. '"></td>';
                 echo '</tr>';
                 echo '<tr>';
-                echo '<td><input id="slovo_ID" data-verb="'.$value["past-simple"]. '" type="text" class="'.$value["past-simple"]. '"></td>';
+                echo '<td><input id="slovo_ID" data-verb="'.$value["pastSimple"]. '" type="text" class="'.$value["pastSimple"]. '"></td>';
                 echo '</tr>';
                 echo '<tr>';
-                echo '<td><input id="slovo_ID" data-verb="'.$value["past-participle"]. '" type="text" class="'.$value["past-participle"]. '"></td>';
+                echo '<td><input id="slovo_ID" data-verb="'.$value["pastParticiple"]. '" type="text" class="'.$value["pastParticiple"]. '"></td>';
                 echo '</tr>';
-            /* echo '<td>'. $value["past-simple"].'</td>';
-                echo '<td>'. $value["past-participle"].'</td>';*/
-                echo '<td class="answer">'. $value["base"]." ". $value["past-simple"]." ". $value["past-participle"]. '</td>';
+            /* echo '<td>'. $value["pastSimple"].'</td>';
+                echo '<td>'. $value["pastParticiple"].'</td>';*/
+                echo '<td class="answer">'. $value["base"]." ". $value["pastSimple"]." ". $value["pastParticiple"]. '</td>';
                 echo '</table>';
                 echo '</div>';
             }

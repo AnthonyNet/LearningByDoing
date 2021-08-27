@@ -6,6 +6,14 @@ tbody .answer:hover {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.answerCard {
+  color: rgba(255, 255, 255, 0);
+}
+
+.answerCard:hover {
+  color: #2c07ff;
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -233,8 +241,3 @@ tbody .answer:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
-
-
-
-
-
