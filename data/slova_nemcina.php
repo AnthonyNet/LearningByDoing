@@ -102,7 +102,7 @@
 		"průkaz, legitimace" => "der Ausweis, die Ausweise", 
 		"vytáhnout, svléci, zout" => "ausziehen", 
 		"učeň" => "der Auszubildende,die Auszubildenden", 
-		"" => "Str 37", 
+		
 		"zvýšení" => "die Erhöhung, die Erhöhungen", 
 		"zotavit se" => "sich erholen", 
 		"zotavení, odpočinek" => "die Erholung, die Erholungen", 
@@ -590,7 +590,7 @@
 		"To Vám musím dát za pravdu." => "Da muss ich Ihnen recht geben.", 
 		"pořadí" => "die Reihenfolge, die Reihenfolgen", 
 		"(vy)čistit" => "reinigen", 
-		"čištění, čistírna" => "die Reinigug, die Reinigungen", 
+		"čištění, čistírna" => "die Reinigung, die Reinigungen", 
 		"důchod" => "die Rente", 
 		"jít do důchodu" => "in Rente gehen", 
 		"důchodce" => "der Rentner", 

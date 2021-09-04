@@ -29,6 +29,11 @@ require "../data/irregular_verbs_english.php";
   <div class="row row-cols-3 mb-3">
 
 
+  
+
+
+
+
  
 <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Enable both scrolling & backdrop</button>
 <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions2" aria-controls="offcanvasWithBothOptions2">Vyber slovo</button>
@@ -51,6 +56,8 @@ require "../data/irregular_verbs_english.php";
   </div>
   <div class="offcanvas-body text-primary">
   <ul class=" list-group menu-karty2">
+
+  
 
 
 

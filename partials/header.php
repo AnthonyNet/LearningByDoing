@@ -18,6 +18,7 @@
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
  <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
     <link rel="stylesheet" href="../css/main.css">
+    
     <title>Brainzone</title>
     
 </head>
@@ -42,7 +43,7 @@
 <section class="bg-dark text-light  p-5 text-center text-sm-start">
     <div class="container-fluid">
         <div class="row">
-          <div class="col bg-secondary"><h1 class="text-center">Juráš smrdí</h1>
+          <div class="col bg-secondary"><h1 class="text-center"> This sucks</h1>
           </div>
         </div>
     </div>
